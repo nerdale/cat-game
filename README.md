@@ -14,8 +14,6 @@ El proyecto fue realizado con las siguientes dependencias NPM:
   - Gulp-Minify-CSS `~v.1.2.4`
   - Gulp-Sass `~v.3.1.0`
   - Gulp-Uglify `~v.2.0.1`
-  - Gulp-Webserver `~v.0.9.1`
-  - Express `~v.4.14.1`
 
 + Dependencias de Producción 
   - Materialize `~v.0.98.0`
