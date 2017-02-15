@@ -1,0 +1,14 @@
+.first-screen{
+	h3{
+		margin-top: 10rem;
+		font-family: 'Titillium Web', sans-serif;
+		color: $text-color;
+	}
+}
+
+.second-screen{
+	display: none;
+	form{
+		margin-top: 10rem;
+	}
+}

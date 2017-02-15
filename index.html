@@ -9,18 +9,58 @@
 	<meta name="description" content="Gato Loco, the best game ever">
     <meta name="keywords" content="Gato , TicTacToe, Juego, Game">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    	<link rel="stylesheet" href="dist/css/style.min.css">
 </head>
 <body>
+<section class="fijo">
 	<div class="container">
-		<div class="row">
-			<h1 class="center-align title">Bienvenido a Gato Loco!</h1>
+		<div class="row right-align">
+			<div class="offset-m8 col offset-s8 m2 col s2">
+				<a href="index.html">Inicio</a>
+			</div>
+			<div class="col m2 col s2">
+				<a href="#">Historial</a>
+			</div>
 		</div>
 	</div>
-	
+</section>
+<!-- first screen -->
+<section class="first-screen">
+	<div class="container">
+		<div class="row center-align">
+			<h3 class="title">Bienvenido a Gato Loco!</h3>
+			<a class="waves-effect waves-light btn one-button"><i class="material-icons right" >&#xE338;</i>Play</a>
+		</div>
+	</div>
+</section>
+<!-- second screen -->
+<section class="second-screen">
+	<div class="container">
+		<div class="row">
+	 		<form class="col m12">
+		   		<div class="row">
+		     		<div class="input-field col m6 col s12">
+		       			<i class="material-icons prefix">&#xE87C;</i>
+		       			<input id="icon_prefix" type="text" class="validate">
+		       			<label for="icon_prefix">Nombre Jugador 1</label>
+		     		</div>
+		     		<div class="input-field col m6 col s12">
+		       			<i class="material-icons prefix">&#xE87C;</i>
+		       			<input id="icon_prefix" type="text" class="validate">
+		       			<label for="icon_prefix">Nombre Jugador 2</label>
+		     		</div>
+		   		</div>
+	 		</form>
+	 		<div class="center-align">
+	 			<a class="waves-effect waves-light btn"><i class="material-icons right" >&#xE037;</i>Comenzar</a>
+	 		</div>
+		</div>
+	</div>
 
 	<!-- Scripts -->
 	<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+	<script type="text/javascript" src="dist/js/script.min.js"></script>
 </body>
 </html>
