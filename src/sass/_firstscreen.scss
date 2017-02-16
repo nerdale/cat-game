@@ -12,3 +12,40 @@
 		margin-top: 10rem;
 	}
 }
+.third-screen{
+	display: none;
+	form{
+		margin-top: 10rem;
+	}
+}
+
+.quienJuega{
+	margin-top: 20px;
+}
+
+.casilla{
+	width: 50px;
+	height: 50px;
+	margin: 0.2rem;
+}
+.casilla [value="x"] , .casilla [value="o"]{
+	color: $white;
+}
+
+.winner{
+	width: 100px;
+	height: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.winner[value="x"]{
+	color: $white;
+	height: 40px;
+}
+.winner[value="o"]{
+	color: $white;
+	height: 40px;
+}
+.espacio{
+	width: 20px;
+}

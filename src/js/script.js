@@ -1,6 +1,4 @@
-
-$(document).ready(function(ev){
-
+$(document).ready(function(){
 	$('.one-button').click(function(){
         $('.first-screen').toggle(100);
         $('.second-screen').show();
@@ -9,5 +7,4 @@ $(document).ready(function(ev){
         $('.second-screen').toggle(100);
         $('.third-screen').show();
     });
-
 });
