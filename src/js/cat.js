@@ -73,13 +73,13 @@
     }
     // mensaje ganador
     function ganadorFinal(){
-        $("#mensaje").html('Ganó ' + turn);
-        $(".alert").show();
+        $('#mensaje').html('Ganó ' + turn);
+        $('.mensajeFinal').show();
     }
     //mensaje juego terminado
     function finJuego(){
         $('#mensaje').html('Game Over');
-        $('.alert').show();
+        $('.mensajeFinal').show();
     }
     //llenado de casillas seleccionadas
     $('.casilla').click(function() {
