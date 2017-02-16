@@ -1,6 +1,4 @@
  $(document).ready(function(){ 
-    var jugadorUno = $('.jugadorUno').val();
-    var jugadorDos = $('.jugadorDos').val();
     var tamanio = 3;
     //creacion tablero
     function board(){
@@ -27,12 +25,12 @@
                 var contDiag = 1;
                 var contDiagDos = 1;
 
-                    $('.casilla').each(function() {
-                      var casillaSeleccionada = $(this).attr('id');
+                $('.casilla').each(function() {
+                    var casillaSeleccionada = $(this).attr('id');
                         //comparacion en diagonales
                         if ((casillaSeleccionada.charAt(0) == row) && ($(this).val()==turn)){
                             ++contRow;	
-                        
+
                             if(contRow == (tamanio + 1)){
                                 ganadorFinal();	
                             }
