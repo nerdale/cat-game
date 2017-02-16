@@ -5,7 +5,11 @@
 		color: $text-color;
 	}
 }
-
+.comentario{
+	margin-top: 10rem;
+	font-family: 'Titillium Web', sans-serif;
+	color: $text-color;
+}
 .second-screen{
 	display: none;
 	form{
@@ -18,11 +22,9 @@
 		margin-top: 10rem;
 	}
 }
-
 .quienJuega{
 	margin-top: 20px;
 }
-
 .casilla{
 	width: 50px;
 	height: 50px;
@@ -31,7 +33,6 @@
 .casilla [value="x"] , .casilla [value="o"]{
 	color: $white;
 }
-
 .winner{
 	width: 100px;
 	height: 20px;
@@ -51,4 +52,11 @@
 }
 .button-historial{
 	margin-top: 2rem;
+}
+.fifth-screen{
+	display: none;
+}
+strong{
+	font-weight: 700;
+	color: $link-color;
 }
